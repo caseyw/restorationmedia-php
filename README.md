@@ -24,7 +24,7 @@ if (!$api->send()) {
     // We can examine the response... but they always return 200...
     $api->getResponse()->getStatusCode();
     
-    // We can check for what error came up
+    // We can check for what response came up
     $response = $api->getResponse()->xml();
     
     switch ($response) {
@@ -37,3 +37,10 @@ if (!$api->send()) {
     }
 }
 ```
+
+Currently known responses:
+* success.
+* Invalid Email.
+* Invalid Source Url.
+* Invalid Ip Address.
+* Invalid Date.
