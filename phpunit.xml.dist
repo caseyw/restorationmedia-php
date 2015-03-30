@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
-    bootstrap="../vendor/autoload.php"
+    bootstrap="vendor/autoload.php"
     colors="true"
     convertErrorsToExceptions="true"
     convertNoticesToExceptions="true"
@@ -13,17 +13,17 @@
     verbose="true"
 >
     <testsuite name="Restoration Media PHP Library">
-        <directory>./src/</directory>
+        <directory>./tests/src/</directory>
     </testsuite>
     <filter>
         <whitelist>
-            <directory suffix=".php">../src/</directory>
+            <directory suffix=".php">./src/</directory>
         </whitelist>
     </filter>
 
     <logging>
          <log type="coverage-html"
-              target="../build/coverage"
+              target="build/coverage"
               title="Restoration Media PHP Library"
               charset="UTF-8"
               yui="true"
@@ -31,6 +31,6 @@
               lowUpperBound="35"
               highLowerBound="70"/>
 
-        <log type="testdox-text" target="../build/logs/testdox.txt"/>
+        <log type="testdox-text" target="build/logs/testdox.txt"/>
      </logging>
 </phpunit>
