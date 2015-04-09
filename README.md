@@ -1,6 +1,6 @@
 Restoration Media PHP Library
 =============================
-[![Build Status](https://travis-ci.org/caseyw/restorationmedia_php.svg?branch=master)](https://travis-ci.org/caseyw/restorationmedia_php)
+[![Build Status](https://travis-ci.org/caseyw/restorationmedia-php.svg?branch=master)](https://travis-ci.org/caseyw/restorationmedia-php)
 
 Small project needed to interface with Restoration Media.
 
