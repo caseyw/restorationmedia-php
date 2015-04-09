@@ -1,5 +1,5 @@
 {
-  "name": "caseyw/restorationmedia_php",
+  "name": "caseyw/restorationmedia-php",
   "type": "library",
   "description": "Simple library to add data into Restoration Media",
   "keywords": ["restoration media", "api", "web service", "client", "HTTP client"],
